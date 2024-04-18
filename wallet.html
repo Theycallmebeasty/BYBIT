@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client's Wallet</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold mb-4">Client's Wallet</h1>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4">Current Balance</h2>
+            <p class="text-2xl font-bold text-green-500">$10,000</p>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-xl font-semibold mb-4">Recent Transactions</h2>
+            <table class="w-full bg-white rounded-lg shadow-md">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="border p-4">Date</th>
+                        <th class="border p-4">Transaction Type</th>
+                        <th class="border p-4">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border p-4">2024-04-15</td>
+                        <td class="border p-4">Deposit</td>
+                        <td class="border p-4 text-green-500">$500</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-4">2024-04-14</td>
+                        <td class="border p-4">Withdrawal</td>
+                        <td class="border p-4 text-red-500">-$200</td>
+                    </tr>
+                    <!-- More transactions can be added dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
