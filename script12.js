@@ -1,3 +1,4 @@
+
 function calculateROI() {
     var investment = document.getElementById("investment").value;
     var duration = document.getElementById("duration").value;

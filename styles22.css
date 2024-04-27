@@ -1,10 +1,14 @@
 .calculator {
     width: 500px;
     padding: 30px;
-    background-image: url(../Tether1.png); 
-    background-position: center;
+    background-color: rgb(176, 199, 244);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -18,7 +22,7 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: medium;
     color: blue;
 }
@@ -27,7 +31,7 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid blue;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: medium;
     color: blue;
 }
@@ -47,10 +51,10 @@
 .calculator button {
     width: 60%;
     padding: 10px;
-    background-color: blue;
+    background-color: #30ae69;
     color: rgb(255, 255, 255);
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: large;
     border-radius: 15px;
     margin-top: 20px;
@@ -63,9 +67,26 @@
 
 .calculator #result {
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: arial;
     font-size: large;
-    font-weight: bold;
-    color: white;
+    font-weight: bolder;
+    color: rgb(26, 18, 172);
 }
+
+.heading_container h2 {
+    font-weight: bold;
+    position: relative;
+  }
+  
+  /* .heading_container h2::before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    width: 75px;
+    height: 5px;
+    background-color: #30ae69;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  } */
